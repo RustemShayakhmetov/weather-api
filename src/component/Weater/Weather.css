@@ -1,0 +1,6 @@
+.window-weather {
+  border: 2px solid rgb(15, 125, 228);
+  border-radius: 15px;
+  width: 100%;
+  height: 500px;
+}

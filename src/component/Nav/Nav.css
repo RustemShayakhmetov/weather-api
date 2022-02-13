@@ -5,6 +5,7 @@
 .navigation {
   margin-top: 70px;
   padding-bottom: 15px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -19,6 +20,7 @@
   font-size: 32px;
   font-weight: bold;
   margin-left: 25px;
+  margin-right: 20px;
 }
 .text-site {
   font-size: 32px;
@@ -57,4 +59,8 @@ li {
   color: #fff;
   text-decoration: none;
   transition: color 0.5s, background-color 0.5s, padding 0.3s;
+}
+.login-success {
+  margin-left: 400px;
+  color: rgb(15, 125, 228);
 }

@@ -16,7 +16,7 @@ const Nav = () => {
                         <li><Link to={`/`} className="link">Главная</Link></li>
                         <li><Link to={`/weather`} className="link">Погода</Link></li>
                         <li><Link to={`/profile`} className="link">Профиль</Link></li>
-                        <li><Link to={`/login`} className="login">Войти в аккаунт</Link></li>
+                        {localStorage.getItem('auth', 'true') ? <li className="login-success">Вход выполнен</li> : <li><Link to={`/login`} className="login">Войти в аккаунт</Link></li>}
                     </div>
                 </ul>
             </div>

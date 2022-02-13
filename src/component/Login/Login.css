@@ -1,21 +1,37 @@
 .login-form {
   margin-top: 50px;
 }
-.btn-login {
+.btn-login,
+.exit {
   display: inline;
   position: absolute;
   text-decoration: none;
-  margin-top: 30px;
-  background-color: rgba(44, 230, 128, 0.815);
+  margin-top: 50px;
+  background-color: rgb(114, 231, 124);
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border-radius: 20px;
+  border: none;
   transition: color 0.3s, background-color 0.5s;
 }
-.btn-login:hover {
+.btn-login:hover,
+.exit:hover {
   cursor: pointer;
   color: #fff;
   text-decoration: none;
-  background-color: rgb(15, 125, 228);
+  background-color: rgb(140, 114, 231);
   transition: color 0.3s, background-color 0.5s;
+}
+.success-log {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.success-log > p {
+  /* margin-bottom: 50px; */
+}
+.gif {
+  position: relative;
+  width: 50%;
+  height: 100%;
 }

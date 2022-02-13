@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import BlockWeather from "./BlockWeather/BlockWeather";
 
 import './Weather.css'
-const API_KEY = "eafc64dc1fbe08e763bc0f807d8f46cb"
+const API_KEY = XXXXXX
 
 const Weather = () => { 
 
